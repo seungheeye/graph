@@ -1,0 +1,6 @@
+#!/bin/bash
+cp * ~/tensorflow/graph
+cd ~/tensorflow/graph 
+bazel build $1
+cd ~/Dropbox/work/C/graph
+
